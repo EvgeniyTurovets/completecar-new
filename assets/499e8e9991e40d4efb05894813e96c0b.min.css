@@ -27821,3 +27821,11 @@ body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rol
       text-align: right;
   }
 }
+#war-inf{
+  margin-top: 50px;
+}
+@media(min-width: 1115px){
+  #war-inf{
+    margin-top: 200px;
+  }
+}
