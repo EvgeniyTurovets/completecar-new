@@ -1,0 +1,47 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "mixins";
+@import "settings";
+
+.wrap{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.app{
+    max-width: 2400px;
+    width: 100%;
+    margin: 0 auto
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 13px 29px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    background-color: #fc6311;
+    transition: 0.2s ease-in-out;
+    font-family: var(--font-two);
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}
+.btn:hover{
+    background-color: #0051ba;
+    color: #fff;
+}
+
+@import './components/header.scss';
+@import './components/index.scss';
+@import './components/footer.scss';
