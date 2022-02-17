@@ -11,6 +11,24 @@
     padding-right: 30px;
     padding-left: 30px;
 }
+.wrap2{
+    max-width: 1397px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+@media(max-width: 767px){
+    .wrap{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .wrap2{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
 .app{
     max-width: 2400px;
     width: 100%;

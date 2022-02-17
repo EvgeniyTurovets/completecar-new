@@ -1,10 +1,10 @@
 "use strict";
-
-new WOW().init();
-lazyload();
 "use strict";
 
 $(function () {
+  new WOW().init();
+  lazyload();
+
   function headerFix() {
     var scroll = $(document).scrollTop();
     var offsetTop = $('.header__top').height();
@@ -43,7 +43,26 @@ $(function () {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
+    },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
     }
+  });
+  var swiper2 = new Swiper('.block4__swiper', {
+    loop: true,
+    slidesPerView: 1,
+    autoHeight: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    }
+  });
+  $('#burger').on('click', function () {
+    $('.nav-mob').fadeIn().css('display', 'flex');
+  });
+  $('.nav-mob__close').on('click', function () {
+    $('.nav-mob').fadeOut();
   });
 });
 //# sourceMappingURL=main.js.map
