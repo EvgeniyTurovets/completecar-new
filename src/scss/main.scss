@@ -18,6 +18,13 @@
     padding-right: 30px;
     padding-left: 30px;
 }
+.wrap3{
+    max-width: 1013px;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
 @media(max-width: 767px){
     .wrap{
         padding-right: 20px;
@@ -27,8 +34,17 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+    .wrap3{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
-
+a{
+    color: inherit;
+}
+a:hover{
+    color: var(--color-orang);
+}
 .app{
     max-width: 2400px;
     width: 100%;
@@ -59,7 +75,13 @@
     background-color: #0051ba;
     color: #fff;
 }
-
+.button-default:hover{
+    color: #fff;
+}
+.text-center{
+    text-align: center;
+}
 @import './components/header.scss';
 @import './components/index.scss';
 @import './components/footer.scss';
+@import './components/about-us.scss';

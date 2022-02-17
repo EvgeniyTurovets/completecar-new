@@ -28,7 +28,7 @@
         flex-wrap: wrap;
     }
     .fusion-contact-info {
-        padding: 0.6em 30px;
+        padding: 0.6em 0px;
         line-height: 1.5em;
     }
 }
@@ -210,6 +210,10 @@
     display: none;
 }
 @media(max-width: 1115px){
+    .header__fix__wrap{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .header{
         position: initial;
     }
@@ -290,7 +294,7 @@
     }
     .nav-mob__close{
         position: fixed;
-        top: 61px;
+        top: 69px;
         right: 46px;
         height: 25px;
         width: 25px;

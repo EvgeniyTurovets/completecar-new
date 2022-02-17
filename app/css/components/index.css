@@ -161,6 +161,11 @@ h2 {
   line-height: 1;
 }
 
+@media (max-width: 767px) {
+  h2 {
+    font-size: 32px;
+  }
+}
 .title-heading-center {
   text-align: center;
 }
@@ -223,6 +228,7 @@ h2 {
 
 .block2__item:hover {
   z-index: 2;
+  color: #fff;
 }
 
 .block2__item:hover .fon {
