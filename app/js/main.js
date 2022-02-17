@@ -64,5 +64,9 @@ $(function () {
   $('.nav-mob__close').on('click', function () {
     $('.nav-mob').fadeOut();
   });
+  $('.mob-acordion__row').on('click', function () {
+    $(this).toggleClass('active');
+    $(this).find('ul').slideToggle();
+  });
 });
 //# sourceMappingURL=main.js.map
