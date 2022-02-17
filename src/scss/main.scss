@@ -48,7 +48,8 @@ a:hover{
 .app{
     max-width: 2400px;
     width: 100%;
-    margin: 0 auto
+    margin: 0 auto;
+    overflow: hidden;
 }
 .btn{
     display: inline-flex;
@@ -85,3 +86,4 @@ a:hover{
 @import './components/index.scss';
 @import './components/footer.scss';
 @import './components/about-us.scss';
+@import './components/privacy.scss';

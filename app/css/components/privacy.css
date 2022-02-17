@@ -1,0 +1,10 @@
+.text-content {
+  padding: 85px 0;
+}
+
+@media (max-width: 767px) {
+  .text-content {
+    padding: 50px 0;
+  }
+}
+/*# sourceMappingURL=privacy.css.map */
