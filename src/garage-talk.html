@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+@include('partials/head.html')
+<body>
+  <div class="app">
+
+    @include('partials/header.html')
+    <main class="main" id="main">
+        <div class="top-block" style="background-image: linear-gradient(rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%), url('./img/all-plans/1.jpeg');">
+            <h1 class="text-center wow fadeInDown">
+                Automotive Articles
+
+            </h1>
+        </div>
+        
+        <div class="ask-block">
+            <div class="wrap">
+              <div class="ask-block__wrap">
+                <div class="ask-block__left wow fadeInLeft" style="visibility: visible; animation-name: fadeInLeft;">
+                    <div class="articles">
+                        <article class="articles__item">
+                            <div class="articles__item__top">
+                                <a href="" class="articles__item__img lazyload" data-src="./img/garage-talk/1.jpg"></a>
+                                <h2>
+                                    <a href="">Warranty Info: Volkswagen</a>
+                                </h2>
+                            </div>
+                            <div class="articles__item__bot">
+                                <div class="data">December 24th, 2019</div>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item__top">
+                                <a href="" class="articles__item__img lazyload" data-src="./img/garage-talk/2.jpg"></a>
+                                <h2>
+                                    <a href="">Worst Vehicle Models: 2011 Hyundai Sonata</a>
+                                </h2>
+                            </div>
+                            <div class="articles__item__bot">
+                                <div class="data">December 24th, 2019</div>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item__top">
+                                <a href="" class="articles__item__img lazyload" data-src="./img/garage-talk/3.jpg"></a>
+                                <h2>
+                                    <a href="">Worst Vehicle Models: 2002 Ford Explorer</a>
+                                </h2>
+                            </div>
+                            <div class="articles__item__bot">
+                                <div class="data">December 24th, 2019</div>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                        <article class="articles__item">
+                            <div class="articles__item__top">
+                                <a href="" class="articles__item__img lazyload" data-src="./img/garage-talk/3.jpg"></a>
+                                <h2>
+                                    <a href="">Worst Vehicle Models: 2004 Ford Explorer</a>
+                                </h2>
+                            </div>
+                            <div class="articles__item__bot">
+                                <div class="data">December 24th, 2019</div>
+                                <a href="">Read More</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="pagination clearfix">
+                        <a class="pagination-prev" rel="prev" href="">
+                            <span class="page-prev"></span>
+                            <span class="page-text">Previous</span>
+                        </a>
+                        <a href="" class="inactive">1</a>
+                        <span class="current">2</span>
+                        <a href="" class="inactive">3</a>
+                        <a class="pagination-next" rel="next" href="">
+                            <span class="page-text">Next</span>
+                            <span class="page-next"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="ask-block__right wow fadeInRight" style="visibility: visible; animation-name: fadeInRight;">
+                  <div class="footer__wrap__item lazyload" data-src="./img/main/footer/1.jpg" style="visibility: visible; animation-name: fadeInLeft; background-image: url(&quot;./img/main/footer/1.jpg&quot;);">
+                    <p>
+                      <span class="text1">
+                        Buy Direct &amp;
+                      </span>
+                      <span class="big-text">SAVE</span>
+                    </p>
+                    <p>
+                      Up To
+                      <span class="big-text2">
+                        60%
+                      </span>
+                      <span class="text1">
+                        From Dealer Prices
+                      </span>
+                    </p>
+                    <br>
+                    
+                    <a href="" class="btn btn-white ">Get a Free Quote</a>
+                  </div>
+  
+                  <div class="testimonials lazyload" data-src="./img/gar/tes-fon.jpeg" style="background-image: url(&quot;./img/gar/tes-fon.jpeg&quot;);">
+                    <div class="testimonials__title">
+                      Testimonials
+                    </div>
+                    <div class="testimonials__text">“These guys are simply amazing. I purchased a warranty plan from them and 3 weeks later my AC broke down. They got it fixed with no questions asked! It was truly a burden taken off my shoulders. Complete Car Warranty has had fantastic customer service and I highly recommend them to anyone looking for an auto warranty company that definitely puts the customer first!”</div>
+                    <div class="testimonials__avatar lazyload" data-src="./img/gar/avatar.png"></div>
+                    <div class="testimonials__avatar__text">Don – Goddard, KS</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+    @include('partials/footer.html')
+  </div>
+  <script src="./js/libs/jquery.min.js"></script>
+  <script src="./js/libs/wow.min.js"></script>
+  <script src="./js/vendor.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
