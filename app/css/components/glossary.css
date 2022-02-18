@@ -1,0 +1,95 @@
+.glossary {
+  padding-top: 200px;
+}
+.glossary h1 {
+  font-size: 50px;
+  margin: 0;
+  font-weight: 600;
+}
+
+.glossary__wrap {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -22px;
+  margin-top: 50px;
+}
+
+.glossary__col {
+  width: calc(33.3333333333% - 44px);
+  margin: 0 22px;
+  margin-bottom: 50px;
+}
+
+.panel-body {
+  padding: 10px 25px;
+  display: none;
+}
+.panel-body p {
+  margin: 0;
+}
+
+.panel-heading {
+  padding: 15px 25px;
+  display: flex;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 600;
+}
+.panel-heading .fusion-toggle-icon-wrapper {
+  font-size: 18px;
+  height: 28px;
+  min-width: 28px;
+  width: 28px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 18px;
+}
+.panel-heading .fusion-toggle-icon-wrapper i {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  text-align: center;
+  font-family: "IcoMoon";
+  font-size: 18px;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.panel-heading .fa-fusion-box:before {
+  font-family: "IcoMoon";
+  font-weight: bold;
+  content: "\e61d";
+  font-style: normal;
+  line-height: normal;
+  font-size: 18px;
+  display: grid;
+}
+
+.fusion-panel {
+  transition: 0.3s all;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.fusion-panel:hover {
+  background-color: #f9f9f9;
+}
+
+.fusion-panel.active .panel-heading .fusion-toggle-icon-wrapper {
+  background-color: var(--color-orang);
+}
+.fusion-panel.active .fusion-accordian .panel-title .active .fa-fusion-box:before {
+  content: "\e61c";
+}
+
+@media (max-width: 1115px) {
+  .glossary__col {
+    width: calc(100% - 44px);
+  }
+
+  .glossary {
+    padding-top: 50px;
+  }
+}
+/*# sourceMappingURL=glossary.css.map */

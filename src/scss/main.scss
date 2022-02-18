@@ -63,9 +63,11 @@ a:hover{
     color: #fff;
     border-radius: 4px;
     letter-spacing: 1px;
+    border: 0;
     background-color: #fc6311;
     transition: 0.2s ease-in-out;
     font-family: var(--font-two);
+    text-transform: uppercase;
 }
 
 .btn-white{
@@ -89,3 +91,7 @@ a:hover{
 @import './components/privacy.scss';
 @import './components/carguard.scss';
 @import './components/persistent-check-engine-light-what-to-do.scss';
+@import './components/contact-us.scss';
+@import './components/garage-talk.scss';
+@import './components/glossary.scss';
+@import './components/how-it-works.scss';

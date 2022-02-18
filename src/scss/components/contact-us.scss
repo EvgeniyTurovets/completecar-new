@@ -1,0 +1,60 @@
+.top-block{
+    h2{
+        margin: 0;
+        color: #fff;
+    }
+}
+.contact-form{
+    margin-top: 87px;
+    background-color: rgb(225,225,225,.5);
+    padding: 20px;
+    margin-bottom: 50px;
+    h3{
+        font-size: 35px;
+        font-weight: 600;
+    }
+}
+.single-row{
+    display: flex;
+    margin-bottom: 40px;
+    input{
+        width: 100%;
+        border-radius: 15px;
+        height: 60px;
+        border: 1px solid #c9c7c7;
+        padding: 0 15px;
+    }
+    input::placeholder{
+        color: #c9c7c7;
+    }
+    textarea{
+        width: 100%;
+        max-width: 100%;
+        border-radius: 15px;
+        height: 150px;
+        border: 1px solid #c9c7c7;
+        padding: 15px;
+    }
+    textarea::placeholder{
+        color: #c9c7c7;
+    }
+}
+.single-column{
+    width: 50%;
+}
+.contact-border-blocks .border-blocks{
+    margin-bottom: 50px;
+}
+
+@media(max-width: 767px){
+    .single-row{
+        flex-direction: column;
+    }
+    .single-column{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .single-row{
+        margin-bottom: 15px;
+    }
+}
