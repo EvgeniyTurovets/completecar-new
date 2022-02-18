@@ -1260,6 +1260,7 @@ a:hover {
   display: flex;
   align-items: center;
   box-sizing: border-box;
+  background-position: center;
 }
 
 .sliders-container__item__center {
@@ -2951,5 +2952,15 @@ table thead {
   .glossary {
     padding-top: 50px;
   }
+}
+.how-it-work__text {
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+
+.how-it-work__text__red {
+  color: red;
+  font-size: 25px;
+  line-height: 1.5;
 }
 /*# sourceMappingURL=main.css.map */
