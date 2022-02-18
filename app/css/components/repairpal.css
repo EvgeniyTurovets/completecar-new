@@ -1,0 +1,45 @@
+.repairpal {
+  margin-top: 155px;
+  height: calc(100vh - 155px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.repairpal__wrap {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.repairpal__wrap img {
+  display: block;
+  margin-bottom: 15px;
+}
+.repairpal__wrap .img:hover {
+  -webkit-animation: pulse 1s infinite;
+  animation: pulse 1s infinite;
+}
+.repairpal__wrap .btn {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1115px) {
+  .repairpal {
+    margin-top: 0;
+    height: 100vh;
+    min-height: -webkit-max-content;
+    min-height: -moz-max-content;
+    min-height: max-content;
+  }
+
+  .repairpal__wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+/*# sourceMappingURL=repairpal.css.map */

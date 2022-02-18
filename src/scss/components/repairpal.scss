@@ -1,0 +1,39 @@
+.repairpal{
+    margin-top: 155px;
+    height: calc(100vh - 155px);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.repairpal__wrap{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba($color: #fff, $alpha: 0.7);
+    img{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .img:hover{
+        animation: pulse 1s infinite;
+    }
+    .btn{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 1115px){
+    .repairpal{
+        margin-top: 0;
+        height: 100vh;
+        min-height: max-content;
+    }
+    .repairpal__wrap{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

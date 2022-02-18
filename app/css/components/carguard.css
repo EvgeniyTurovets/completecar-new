@@ -18,6 +18,10 @@ table thead {
   background-color: var(--color-orang);
 }
 
+.table-2 table {
+  min-width: 700px;
+}
+
 .table-2 table th {
   padding: 20px;
   color: #fff;
@@ -169,7 +173,7 @@ table thead {
     display: block;
   }
 
-  .table-2 {
+  .table-2.fusion-no-medium-visibility {
     display: none;
   }
 }
