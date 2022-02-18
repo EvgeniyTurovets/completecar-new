@@ -239,6 +239,10 @@ table thead {
   padding: 87px 0;
 }
 
+.ask-title h2 {
+  margin-top: 0;
+}
+
 .ask-block__wrap {
   display: flex;
 }
