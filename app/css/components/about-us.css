@@ -129,6 +129,10 @@
   .about-block2__btns .btn {
     margin: 15px 0;
   }
+
+  .btn.btn-big {
+    font-size: 16px;
+  }
 }
 .listen-block {
   padding-bottom: 80px;
