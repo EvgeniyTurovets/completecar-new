@@ -63,6 +63,7 @@ a:hover{
     color: #fff;
     border-radius: 4px;
     letter-spacing: 1px;
+    border: 0;
     background-color: #fc6311;
     transition: 0.2s ease-in-out;
     font-family: var(--font-two);
@@ -89,3 +90,4 @@ a:hover{
 @import './components/about-us.scss';
 @import './components/privacy.scss';
 @import './components/carguard.scss';
+@import './components/contact-us.scss';
