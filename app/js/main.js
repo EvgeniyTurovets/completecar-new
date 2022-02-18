@@ -68,5 +68,16 @@ $(function () {
     $(this).toggleClass('active');
     $(this).find('ul').slideToggle();
   });
+  $('.fusion-panel').on('click', function () {
+    if (!$(this).hasClass('active')) {
+      $(this).closest('.panel-group').find('.fusion-panel').removeClass('active');
+      $(this).closest('.panel-group').find('.panel-body').slideUp();
+      $(this).addClass('active');
+      $(this).find('.panel-body').slideDown();
+    } else {
+      $(this).closest('.panel-group').find('.fusion-panel').removeClass('active');
+      $(this).closest('.panel-group').find('.panel-body').slideUp();
+    }
+  });
 });
 //# sourceMappingURL=main.js.map
